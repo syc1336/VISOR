@@ -21,4 +21,4 @@ The paper, source code, data, and supplementary materials will be released soon.
 
 ## Citation
 
-Coming soon.
+Yucheng Shen, Jiulong Wu, Jizhou Huang, Dawei Yin, Lingyong Yan, and Min Cao. 2026. VISOR: Agentic Visual Retrieval-Augmented Generation via Iterative Search and Over-horizon Reasoning. In *Proceedings of the 34th ACM International Conference on Multimedia (MM '26)*, November 10--14, 2026, Rio de Janeiro, Brazil. ACM, New York, NY, USA, 9 pages. [https://doi.org/10.1145/3767308.3835463](https://doi.org/10.1145/3767308.3835463)
