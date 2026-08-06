@@ -1,0 +1,1 @@
+deepspeed --num_gpus 8 /mnt/cfs_algo_bj/workspace/shenyucheng/VRAG/scripts/SFT-qwen2.5-3B.py
