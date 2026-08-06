@@ -1,7 +1,7 @@
 # VISOR: Agentic Visual Retrieval-Augmented Generation via Iterative Search and Over-horizon Reasoning
 
 <p align="center">
-  <img src="asset/visor-logo.png" alt="VISOR logo" width="180" />
+  <img src="assets/visor-logo.png" alt="VISOR logo" width="180" />
 </p>
 
 >🎉 **News:** VISOR has been accepted to ACM Multimedia (ACM MM) 2026.
@@ -9,7 +9,7 @@
 ## 🚀 Overview
 
 <p align="center">
-  <img src="asset/visor-overview.png" alt="Overview of VISOR" width="744" />
+  <img src="assets/visor-overview.png" alt="Overview of VISOR" width="744" />
 </p>
 
 VISOR is an agentic visual retrieval-augmented generation framework for complex question answering over visually rich documents. See our [paper](https://arxiv.org/abs/2604.09508) for details.
