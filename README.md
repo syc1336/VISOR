@@ -192,6 +192,8 @@ For comparison, `vrag_agent/generation_vrag.py` preserves the original [VRAG-RL]
 # Run from VRAG-RL/ directory
 ./qwen2.5_test.sh
 ```
+After evaluation, each run is recorded under the `case/` directory in the project root: `case/<dataset>_<timestamp>.json` stores the full trajectories (query, reference answer, model answer, score, reasoning trace, evidence ledger, and retrieved images), and `case/<dataset>_<timestamp>/` stores the cropped images produced by `<bbox>` actions. You can analyze these records to further optimize your work.
+
 ## 📌 Notice
 
 This repository is our first public release of VISOR. Although we have made every effort to provide the core implementation and research artifacts, some paths, environment-specific configurations, and experimental details may still require adaptation and debugging before the full pipeline can run in a new environment. We sincerely apologize for any inconvenience this may cause. Questions, discussions, and suggestions are warmly welcomed, and we will continue improving the repository based on community feedback.
