@@ -5,6 +5,8 @@
 </p>
 
 >🎉 **News:** VISOR has been accepted to ACM Multimedia (ACM MM) 2026.
+>
+>🤗 **News:** The VISOR-7B weights are released on [Hugging Face](https://huggingface.co/syc1336/VISOR-7B/tree/main).
 
 ## 🚀 Overview
 
@@ -13,6 +15,12 @@
 </p>
 
 VISOR is an agentic visual retrieval-augmented generation framework for complex question answering over visually rich documents. See our [paper](https://arxiv.org/abs/2604.09508) for details.
+
+## 🤗 Model Weights
+
+| Model | Base Model | Download |
+| --- | --- | --- |
+| VISOR-7B | [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) | [syc1336/VISOR-7B](https://huggingface.co/syc1336/VISOR-7B/tree/main) |
 
 
 ## Installation
@@ -83,10 +91,10 @@ python search_engine/search_engine_api.py
 ```
 ### Step3. Run VISOR
 
-First, start the OpenAI-compatible VLM service:
+First, start the OpenAI-compatible VLM service with the released [VISOR-7B](https://huggingface.co/syc1336/VISOR-7B) weights (the served model name matches `MODEL_NAME` in `demo/visor_agent.py`):
 
 ```bash
-vllm serve Qwen/Qwen2.5-VL-7B-Instruct \
+vllm serve syc1336/VISOR-7B \
   --port 8001 \
   --host 0.0.0.0 \
   --limit-mm-per-prompt image=10 \
